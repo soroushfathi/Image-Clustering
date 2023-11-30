@@ -11,6 +11,7 @@ Here we give the algorithm the features that we extracted from all the images in
 ![Alt text](image.png)
 
 • If n is large (more than 10), we can divide the flower into one cluster, which is ideal, but most likely the flower will be divided into more than one cluster. But this case is better than the previous one because we can merge the clusters that have the flower in them to a good extent by examining features such as spatial location, proximity, color variance, and setting a threshold.
+
 ![Alt text](image-2.png)
 ![Alt text](image-3.png)
 ![Alt text](image-4.png)
