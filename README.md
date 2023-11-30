@@ -22,10 +22,18 @@ These two algorithms had a very high time complexity for images with a low numbe
 
 # Extract Features of clusters
 After dividing each image into n clusters with K-Mean, we need to extract the features of each cluster in each image so that we can classify the images with them. The features that we calculate for each cluster are:
--  The average color of the cluster
+
+- The average color of the cluster
 
 With this feature, we can put flowers of the same color in one category.
+
 - The color variance of the cluster
 
 The color of a flower is not the same, and it has a different color around or in the middle, and therefore the rate of color change is also important for us to be able to separate the flower from the background.
-- The area of each cluster: It is possible that the color of two flowers is the same, but they have different sizes.
+
+- The area of each cluster: 
+
+It is possible that the color of two flowers is the same, but they have different sizes.
+
+# Clustering Clusters
+Now we have to give all the clusters to the K-Mean algorithm. Here we expect the algorithm to separate the clusters of each flower. For example, red flowers in one cluster and yellow flowers in another cluster and so on. In this program, there is no algorithm yet to separate yellow flowers with different shapes.
