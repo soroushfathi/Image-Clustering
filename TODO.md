@@ -11,4 +11,7 @@
 
 # Phase 2
 
-- [ ] Verctorize Image: average 
+- [ ] Verctorize each Image: P2P mean of _clusters feature vectors_ of the image
+    - result vector = (
+        avg hue of clusters[:k'], avg saturation of clusters[:k'], avg value of clusters[:k'], avg variance of clusters[:k'], avg size of clusters[:k'], avg position of clusters[:k']
+    )
