@@ -8,6 +8,7 @@
     - k[0] = count of clusters of the image which are in cluster 0 in previous clustering(results of clutering all feature vectors of all images)
     - ...
 - [ ] Train a model on _images feature vector_ to recognize flowers
+- [ ] Accuracy measurement
 
 # Phase 2
 
